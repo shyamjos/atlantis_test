@@ -13,6 +13,6 @@ provider "aws" {
   region  = "us-west-2"
 }
 
-resource "null_resource" "cluster" {
+resource "null_resource" "cluster-prod" {
   # Changes to any instance of the cluster requires re-provisioning
   }
