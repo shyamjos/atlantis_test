@@ -16,3 +16,7 @@ provider "aws" {
 resource "null_resource" "cluster-prod" {
   # Changes to any instance of the cluster requires re-provisioning
   }
+
+resource "null_resource" "cluster-prod-2" {
+  # Changes to any instance of the cluster requires re-provisioning
+  }
