@@ -22,6 +22,7 @@ workflows:
   default:
     plan:
       steps:
+      - run: echo dev
       - init
       - plan:
           extra_args: ["-lock", "false"]

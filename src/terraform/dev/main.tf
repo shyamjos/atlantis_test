@@ -19,5 +19,4 @@ resource "null_resource" "cluster-dev" {
 
 resource "null_resource" "cluster-dev2" {
   # Changes to any instance of the cluster requires re-provisioning
-  }
-~    
+  }    
