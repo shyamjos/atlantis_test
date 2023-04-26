@@ -8,7 +8,7 @@ projects:
   branch: /main/
   dir: dev
   workspace: default
-  terraform_version: v0.12.0
+  terraform_version: v1.4.4
   delete_source_branch_on_merge: true
   repo_locking: true
   autoplan:
