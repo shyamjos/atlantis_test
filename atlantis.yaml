@@ -16,16 +16,4 @@ projects:
   plan_requirements: [mergeable, approved, undiverged]
   apply_requirements: [mergeable, approved, undiverged]
   import_requirements: [mergeable, approved, undiverged]
-  workflow: default
 
-workflows:
-  default:
-    plan:
-      steps:
-      - run: echo dev
-      - init
-      - plan:
-          extra_args: ["-lock", "false"]
-    apply:
-      steps:
-      - apply
